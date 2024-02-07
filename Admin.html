@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let userName = prompt("Who's there?", '');
+        var admin = "admin"
+
+        if (admin == "admin") {
+            let password = prompt('Password?', "");
+
+            if (password == 147258) {
+                alert("Welcome to my word")
+            } else if (password == "" || password == null) {
+                alert("No Password")
+            } else {
+                alert("Null Password")
+            }
+        } else if (admin == '' || admin == null) {
+            alert("Concert")
+        } else {
+            alert("Null")
+        }
+    </script>
+
+</body>
+
+</html>
